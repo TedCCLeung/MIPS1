@@ -6,9 +6,40 @@ Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
 URL: https://github.com/TedCCLeung/MIPS1
 BugReports: https://github.com/TedCCLeung/MIPS1/issues
+Imports: 
+    AnnotationDbi (>= 1.40.2),
+    BiocGenerics (>= 0.40.0),
+    Biostrings,
+    BSgenome.Athaliana.TAIR.TAIR9 (>= 1.3.1000),
+    ComplexHeatmap (>= 2.0.0),
+    cowplot,
+    extrafont,
+    GenomeInfoDb (>= 1.30.0),
+    GenomicFeatures (>= 1.46.1),
+    GenomicRanges (>= 1.46.1),
+    grDevices,
+    magrittr,
+    rlang,
+    roxygen2,
+    rtracklayer,
+    stats,
+    universalmotif (>= 1.11.1),
+    utils
+Suggests: 
+    dplyr (>= 1.0.7),
+    forcats (>= 0.5.1),
+    ggplot2 (>= 3.3.5),
+    ggpubr,
+    purrr (>= 0.3.4),
+    readr (>= 2.1.1),
+    stringr (>= 1.4.0),
+    tibble (>= 3.1.6),
+    tidyr (>= 1.1.4)
+Depends: 
+    R (>= 2.10)
